@@ -70,17 +70,3 @@ function display(city){
 
 btn.addEventListener('click',display)
 
-
-// important keys and urls 
-// unsplash access key (api key)
-// GpwrbtY1k8dUjAhoV4Z2vnCSq1XceChm1bb9K3hIkDg
-// unsplash url 
-// https://api.unsplash.com/search/photos
-// url = `${url}?query=${city}`
-// unsplash method 
-// fetch(url,{
-// headers:{ 'Authorization': `Client-ID ${accessKey}` }})
-// OpenWeatherApp access key (api key)
-// 80fdd62543b521b7bad79be15309ebb8
-// OpenWeatherApp url
-// https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${key}
